@@ -1,0 +1,60 @@
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardo-bold {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardo-regular-italic {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body{
+    font-family: "Cardo", serif;
+    background-color: rgb(88, 63, 46);
+    
+}
+
+section#boxescrita {
+    background-color: rgb(214, 243, 250);
+    position: relative;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 600px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
+    z-index: 2;
+    opacity: 1;
+    
+    justify-content: center;
+}
+header {
+  text-align: center;
+  color: white;
+}
+
+div#escrita{
+  margin: center;
+  text-align: center;
+  
+  opacity: 1;
+}
+
+div#search {
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(196, 130, 130);
+}
+
+section#todaCaixa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
